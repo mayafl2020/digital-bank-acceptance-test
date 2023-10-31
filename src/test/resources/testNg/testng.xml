@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/mayafarberov/IdeaProjects/digital-bank-acceptance-test/src/test/java/co/wedevx/digitalbank/automation/ui/steps/LoginPageValidationStep.java">
+        <classes>
+            <class name="co.wedevx.digitalbank.automation.ui.steps.LoginPageScreenCompletenessTest">
+                <methods>
+                    <include name="backgroundColor"/>
+                    <include name="validateLogo"/>
+                    <include name="validateLoginForm"/>
+                    <include name="validateLabelUserName"/>
+                    <include name="validateLabelPassword"/>
+                    <include name="validateRadioButton"/>
+                    <include name="validateSignInButton"/>
+                    <include name="validateDontHaveAccount"/>
+                    <include name="validateSignUpButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

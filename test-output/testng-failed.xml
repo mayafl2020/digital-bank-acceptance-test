@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/mayafarberov/IdeaProjects/digital-bank-acceptance-test/src/test/java/co/wedevx/digitalbank/automation/ui/steps/LoginPageValidationStep.java(failed)">
+    <classes>
+      <class name="co.wedevx.digitalbank.automation.ui.steps.LoginPageScreenCompletenessTest">
+        <methods>
+          <include name="validateDontHaveAccount"/>
+          <include name="validateLabelUserName"/>
+          <include name="validateRadioButton"/>
+          <include name="backgroundColor"/>
+          <include name="validateSignInButton"/>
+          <include name="validateLabelPassword"/>
+          <include name="validateSignUpButton"/>
+          <include name="validateLogo"/>
+          <include name="validateLoginForm"/>
+        </methods>
+      </class> <!-- co.wedevx.digitalbank.automation.ui.steps.LoginPageScreenCompletenessTest -->
+    </classes>
+  </test> <!-- /Users/mayafarberov/IdeaProjects/digital-bank-acceptance-test/src/test/java/co/wedevx/digitalbank/automation/ui/steps/LoginPageValidationStep.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
