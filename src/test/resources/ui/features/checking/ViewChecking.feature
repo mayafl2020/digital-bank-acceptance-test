@@ -6,8 +6,8 @@ Feature: View Checking feature
     And User clicks on view checking
     Then User is on View Checking page
     And User can see checking accounts info
-      | accountName                      | accountType | ownership  | accountNumber | interestRate | balance   |
-      | Elon Musk first checking account | Standard Checking| Individual | 486131097    | 0.0%         | 1701100.00 |
+      | accountName             | accountType       | ownership  | accountNumber | interestRate | balance   |
+      | Elon Musk Last Checking | Standard Checking | Individual | 486130070     | 0.0%         | 100000.00 |
     And User can see Transaction info
-      | date             | category | description                      | amount    | balance    |
-      | 2023-09-06 17:04 | Income   | 845323691 (DPT) - Online Deposit | 200000.00 | 1701100.00 |
+      | date             | category | description               | amount    | balance    |
+      | 2023-09-06 17:04 | Income   | 845320070 (DPT) - Deposit | 100000.0 | 100000.0 |

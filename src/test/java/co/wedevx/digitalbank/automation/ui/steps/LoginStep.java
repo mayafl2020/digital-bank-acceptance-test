@@ -7,6 +7,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
+import static co.wedevx.digitalbank.automation.ui.utils.Driver.closeDriver;
+
 public class LoginStep {
 
     WebDriver driver = Driver.getDriver();

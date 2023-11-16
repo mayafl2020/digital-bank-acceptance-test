@@ -1,7 +1,7 @@
 Feature: View Savings feature
 
   Scenario: User should be able to view Savings
-    Given the user logged in as "miaqapro@gmail.com" "Test1234!"
+    Given the user logged in as "miaqapro@gmail.com" "Test12345$"
     When the user clicks on the savings menu button
     And the user clicks on savings view button
     Then the user is on the view savings page

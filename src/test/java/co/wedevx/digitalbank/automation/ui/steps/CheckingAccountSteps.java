@@ -1,17 +1,23 @@
 package co.wedevx.digitalbank.automation.ui.steps;
 
 import co.wedevx.digitalbank.automation.ui.models.AccountCard;
+import co.wedevx.digitalbank.automation.ui.models.DepositInfo;
 import co.wedevx.digitalbank.automation.ui.models.NewCheckingAccountInfo;
 import co.wedevx.digitalbank.automation.ui.models.Transactions;
 import co.wedevx.digitalbank.automation.ui.pages.LoginPage;
 import co.wedevx.digitalbank.automation.ui.pages.NewCheckingPage;
+import co.wedevx.digitalbank.automation.ui.utils.DBUtils;
 import co.wedevx.digitalbank.automation.ui.utils.Driver;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
+import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CheckingAccountSteps {
 

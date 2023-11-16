@@ -1,4 +1,4 @@
-@ignore
+@regression
 Feature: Login feature
   This feature is used to test login functionality
 // hi
@@ -6,7 +6,7 @@ Feature: Login feature
   Scenario: Valid username Valid password test
 
 #    Given i'm on login page
-    When I enter "miaqapro@gmail.com" and "Test12345$ "
+    When I enter "miaqapro@gmail.com" and "Test12345$"
     Then i should get login success message
 
   @negative

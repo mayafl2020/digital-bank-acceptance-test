@@ -130,6 +130,7 @@ public class LoginPage extends BasePage{
         rememberMeBtn.click();
 
         submitBtn.click();
+
     }
         public void successfullyLoggedIn() {
 
@@ -137,7 +138,8 @@ public class LoginPage extends BasePage{
 
                 System.out.println("Successfully logged in");
             }
-//        logout.click();
+
+
 
         }
 

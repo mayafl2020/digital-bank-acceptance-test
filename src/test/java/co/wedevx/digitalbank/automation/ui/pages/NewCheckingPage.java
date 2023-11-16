@@ -30,7 +30,6 @@ public class NewCheckingPage extends BaseMenuPage {
     WebElement submitBtn;
 
 
-
     @CacheLookup
     @FindBy(id = "name")
     WebElement accountNameTxt;
@@ -68,12 +67,12 @@ public class NewCheckingPage extends BaseMenuPage {
     List<WebElement> transactionTable;
 
     @CacheLookup
-    @FindBy(xpath = "//div[@id ='firstRow']/child::div[7]")
-    WebElement cardInfo ;
+    @FindBy(xpath = "//div[@id ='firstRow']/child::div[1]")
+    WebElement cardInfo;
 
 
     public NewCheckingPage(WebDriver driver) {
-       super(driver);
+        super(driver);
     }
 
     public void createNewCheckingAccount(List<NewCheckingAccountInfo> newCheckingAccountInfoList) {
