@@ -1,3 +1,4 @@
+@smoke
 Feature: Creating a new savings account
 
 

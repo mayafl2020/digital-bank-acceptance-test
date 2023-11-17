@@ -2,6 +2,7 @@ package co.wedevx.digitalbank.automation.ui.steps;
 
 import co.wedevx.digitalbank.automation.ui.utils.ConfigReader;
 import co.wedevx.digitalbank.automation.ui.utils.DBUtils;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

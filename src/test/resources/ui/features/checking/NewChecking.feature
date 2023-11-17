@@ -1,3 +1,4 @@
+@smoke
 Feature: Creating a new checking account
 
   Scenario: Create an individual checking account

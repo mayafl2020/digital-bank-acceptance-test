@@ -10,13 +10,13 @@ import static co.wedevx.digitalbank.automation.ui.utils.Driver.getDriver;
 
 public class Hooks {
 
-    @Before("not @Registration")
+    @Before(order=1,value ="not @Registration")
     public void url() {
 
         getDriver().get(" http://maya.mydevx.com/bank");
     }
 
-    @Before("@Registration")
+    @Before(order=2,value="@Registration")
     public void establishConnectionToDB() {
 
         DBUtils.establishConnection();

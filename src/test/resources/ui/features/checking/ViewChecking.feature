@@ -1,3 +1,4 @@
+@smoke
 Feature: View Checking feature
 
   Scenario: User should be able to view checking cards

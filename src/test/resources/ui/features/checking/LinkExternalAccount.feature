@@ -1,4 +1,4 @@
-@("negative")
+@smoke
 Feature: Link External Account
   This feature is used to link external account
 

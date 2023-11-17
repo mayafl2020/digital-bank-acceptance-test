@@ -1,3 +1,4 @@
+@smoke
 Feature: View Savings feature
 
   Scenario: User should be able to view Savings
